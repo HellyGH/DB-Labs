@@ -14,3 +14,15 @@ VALUES
      ('Katrin Hristowa','Sales Rep',30000.0),
       ('Alex Georgiev','Developer',40000.0),
        ('Emily Davis','HR',35000.0);
+
+UPDATE employees
+SET salary = 42000.0
+WHERE name = 'Alex Georgiev';
+
+DELETE FROM employees where id=4;
+
+
+SELECT *
+FROM employees where position IN ('Manager','Sales Rep')
+
+
