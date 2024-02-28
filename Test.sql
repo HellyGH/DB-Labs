@@ -18,6 +18,11 @@ VALUES
 UPDATE employees
 SET salary = 42000.0
 WHERE name = 'Alex Georgiev';
+USE DB;
+CREATE TABLE management(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task VARCHAR(100)
+);
 
 DELETE FROM employees where id=4;
 
